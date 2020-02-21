@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+     row1{
+            font-size: 55px;
+        }
+        .item{
+            padding: 20px;
+        }
+
+
+
+.item:nth-child(even){
+    border-left: 1px solid #000;
+}
+.item:nth-child(3), .item:nth-child(4){
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+        @media only screen and (min-width: 768px) {
+
+
+.item:nth-child(even){
+    border-left: 0px;
+}
+.item:nth-child(3), .item:nth-child(4){
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.item:nth-child(1), .item:nth-child(2), .item:nth-child(3){
+    border-bottom: 1px solid #000;
+}
+
+.item:nth-child(2), .item:nth-child(5){
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+} 
+.get-in-touch-text:last-child{
+    color:red !important;
+}
+    </style>
+</head>
+<body>
+<section id="container">
+    <div class="container row1 my-3">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-12 ">
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-4 item"><img class="img-fluid" src="img/bg_ludothe.png" alt=""></div>
+                    <div class="col-6 col-md-4 col-lg-4 item"><img class="img-fluid" src="img/bg_ludothe.png" alt=""></div>
+                    <div class="col-6 col-md-4 col-lg-4 item"><img class="img-fluid" src="img/bg_ludothe.png" alt=""></div>
+                    <div class="col-6 col-md-4 col-lg-4 item"><img class="img-fluid" src="img/bg_ludothe.png" alt=""></div>
+                    <div class="col-6 col-md-4 col-lg-4 item"><img class="img-fluid" src="img/bg_ludothe.png" alt=""></div>
+                    <div class="col-6 col-md-4 col-lg-4 item"><img class="img-fluid" src="img/bg_ludothe.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="get-in-touch-text">
+            <p>Plot 32, Kudirat Abiola Way,
+              Oregun,
+              Ikeja</p>
+    </div>
+              <div class="get-in-touch-text">
+              <p>+234 (0) 815 989 0198,
+                +234 (0) 802 844 4777</p>
+                </div>
+</section>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
